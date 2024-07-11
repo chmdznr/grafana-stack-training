@@ -89,5 +89,3 @@ File konfigurasi utama Grafana biasanya berada di:
 
 5. **Data Sources:**
    Anda perlu menambahkan sumber data (data sources) dari antarmuka web Grafana setelah instalasi. Hal ini bisa dilakukan melalui menu "Configuration" di dashboard Grafana.
-
-Dengan mengikuti langkah-langkah di atas, Anda seharusnya bisa menginstal dan mengkonfigurasi Grafana di Ubuntu 22.04 dengan sukses.

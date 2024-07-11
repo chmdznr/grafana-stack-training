@@ -135,5 +135,3 @@ File konfigurasi utama Prometheus biasanya berada di:
      --web.console.templates=/etc/prometheus/consoles \
      --web.console.libraries=/etc/prometheus/console_libraries
    ```
-
-Dengan mengikuti langkah-langkah di atas, Anda seharusnya bisa menginstal dan mengkonfigurasi Prometheus di Ubuntu 22.04 dengan sukses. Jika ada pertanyaan lebih lanjut, jangan ragu untuk bertanya!

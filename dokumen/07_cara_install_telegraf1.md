@@ -35,17 +35,8 @@
    sudo nano /etc/telegraf/telegraf.conf
    ```
 
-2. **Konfigurasi Outputs:**
-   Konfigurasi output untuk mengirim data ke InfluxDB:
-   ```toml
-   [[outputs.influxdb_v2]]
-     urls = ["http://localhost:8086"]
-     token = "YOUR_INFLUXDB_TOKEN"
-     organization = "YOUR_ORG_NAME"
-     bucket = "YOUR_BUCKET_NAME"
-   ```
 
-3. **Konfigurasi Inputs:**
+2. **Konfigurasi Inputs:**
    Tambahkan konfigurasi berikut untuk mengumpulkan metrik yang setara dengan `node_exporter`:
    ```toml
    # Read metrics about cpu usage
@@ -96,6 +87,18 @@
    [[inputs.linux_sysctl_fs]]
      # no configuration
    ```
+
+
+3. **Konfigurasi Outputs:**
+   Konfigurasi output untuk mengirim data ke InfluxDB:
+   ```toml
+   [[outputs.influxdb_v2]]
+     urls = ["http://localhost:8086"]
+     token = "YOUR_INFLUXDB_TOKEN"
+     organization = "YOUR_ORG_NAME"
+     bucket = "YOUR_BUCKET_NAME"
+   ```
+
 
 ### Menggunakan Data di InfluxDB Melalui Web UI
 
